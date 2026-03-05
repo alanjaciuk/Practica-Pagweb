@@ -1,7 +1,7 @@
 //Carrusel
 
 const imagenes = [{
-    img:'https://alanjaciuk.github.io/Imagenes/K1nG_at_the_FNCS_2025_Global_Championship.jpg',
+    img:'../Imagenes/K1nG_at_the_FNCS_2025_Global_Championship.jpg',
     titulo:"Jugadores Profesionales",
     desc: "Todo sobre los ultimos tops y rendimiento de tus jugadores Profesionales favoritos"},
     {img: '../Imagenes/cooper.jpg',

@@ -1,87 +1,99 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fortinfo</title>
-    <link rel="stylesheet" href="./CSS/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="./CSS/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="navbar">
-        <span class="logo">
-            <img src="./Imagenes/FNCS-Concept-6.webp" alt="" width="180">
-        </span>
-        <ul class="navitems">
-            <li><a href="./index.html">INICIO</a></li>
-            <li><a href="./productos.html">PRODUCTOS</a></li>
-            <li><a href="./contacto.html">CONTACTO</a></li>
-        </ul>
+      <span class="logo">
+        <img src="./Imagenes/FNCS-Concept-6.webp" alt="" width="180" />
+      </span>
+      <ul class="navitems">
+        <li><a href="./index.html">INICIO</a></li>
+        <li><a href="./productos.html">PRODUCTOS</a></li>
+        <li><a href="./contacto.html">CONTACTO</a></li>
+      </ul>
     </header>
 
     <main class="cont-principal">
-        <div>
-        <h1 style="color: white;">¡Todo sobre el competitivo de Fortnite aqui!</h1>
+      <div>
+        <h1 style="color: white">
+          ¡Todo sobre el competitivo de Fortnite aqui!
+        </h1>
+      </div>
+
+      <div class="carrusel-cont">
+        <div class="overlay"></div>
+        <img
+          src="Practica-Pagweb/Imagenes/K1nG_at_the_FNCS_2025_Global_Championship.jpg"
+          alt="Foto principal del carrusel"
+          width="700"
+          id="img-carrusel"
+        />
+        <button class="btn-carrusel-sig" onclick="imgSig()">❯</button>
+        <button class="btn-carrusel-ant" onclick="imgAnt()">❮</button>
+        <div class="abj-carrusel" id="textocarrusel">
+          <h1 id="titulo-carrusel">Jugadores Profesionales</h1>
+          <p id="desc-carrusel">
+            Todo sobre los ultimos tops y rendimiento de tus jugadores
+            Profesionales favoritos
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="./Imagenes/minimap.webp" alt="Mapa Fortnite" />
         </div>
 
-        <div class="carrusel-cont">
-          <div class="overlay"></div>
-            <img src="Practica-Pagweb\Imagenes\K1nG_at_the_FNCS_2025_Global_Championship.jpg" alt="" width="700" id="img-carrusel">
-            <button class="btn-carrusel-sig" onclick="imgSig()">❯</button>
-            <button class="btn-carrusel-ant" onclick="imgAnt()">❮</button>
-            <div class="abj-carrusel" id="textocarrusel">
-              <h1 id="titulo-carrusel">Jugadores Profesionales</h1>
-            <p id="desc-carrusel">Todo sobre los ultimos tops y rendimiento de tus jugadores Profesionales favoritos</p>
+        <div class="card-content">
+          <h2>Estrategias de juego</h2>
+          <p>
+            Te daremos estrategias sobre como jugar los earlys, mid y end games!
+          </p>
         </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="./Imagenes/protips.webp" alt="Mapa Fortnite" />
         </div>
 
-        
+        <div class="card-content">
+          <h2>Pro tips</h2>
+          <p>Tips/Consejos que te ayudaran a mejorar tu estilo de juego!</p>
+        </div>
+      </div>
 
-        <div class="card">
-  <div class="card-img">
-    <img src="./Imagenes/minimap.webp" alt="Mapa Fortnite">
-  </div>
+      <div class="card">
+        <div class="card-img">
+          <img src="./Imagenes/config.png" alt="Mapa Fortnite" />
+        </div>
 
-  <div class="card-content">
-    <h2>Estrategias de juego</h2>
-    <p>Te daremos estrategias sobre como jugar los earlys, mid y end games!</p>
-    
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-img">
-    <img src="./Imagenes/protips.webp" alt="Mapa Fortnite">
-  </div>
-
-  <div class="card-content">
-    <h2>Pro tips</h2>
-    <p>Tips/Consejos que te ayudaran a mejorar tu estilo de juego!</p>
-    
-  </div>
-</div>
-
-<div class="card">
-  <div class="card-img">
-    <img src="./Imagenes/config.png" alt="Mapa Fortnite">
-  </div>
-
-  <div class="card-content">
-    <h2>Configuraciones</h2>
-    <p>Te explicaremos como configurar tu juego para que rindas de la mejor manera!</p>
-    
-  </div>
-</div>
+        <div class="card-content">
+          <h2>Configuraciones</h2>
+          <p>
+            Te explicaremos como configurar tu juego para que rindas de la mejor
+            manera!
+          </p>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
-        <div>
-            <p>© 2025 Fortnite Competitive Alan Jaciuk</p>
-        </div>
+      <div>
+        <p>© 2025 Fortnite Competitive Alan Jaciuk</p>
+      </div>
     </footer>
 
-<script src="./JS/script.js"></script>
-
-</body>
+    <script src="./JS/script.js"></script>
+  </body>
 </html>

@@ -72,6 +72,7 @@ li:hover {
   width: 100%;
   height: 550px;
   position: relative;
+  
 }
 
 .carrusel-cont > img {
@@ -94,6 +95,7 @@ li:hover {
 .btn-carrusel-sig {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   left: 90%;
   border-radius: 50px;
   padding: 13px;
@@ -108,6 +110,7 @@ li:hover {
 .btn-carrusel-ant {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   right: 90%;
   border-radius: 50px;
   padding: 13px;

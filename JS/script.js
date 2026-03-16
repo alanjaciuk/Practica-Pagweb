@@ -1,25 +1,25 @@
 //Carrusel
 
 const imagenes = [{
-    img:'Practica-Pagweb\Imagenes\K1nG_at_the_FNCS_2025_Global_Championship.jpg',
+    img:'/Imagenes/K1nG_at_the_FNCS_2025_Global_Championship.jpg',
     titulo:"Jugadores Profesionales",
     desc: "Todo sobre los ultimos tops y rendimiento de tus jugadores Profesionales favoritos"},
-    {img: 'Practica-Pagweb\Imagenes\cooper.jpg',
+    {img: '/Imagenes/cooper.jpg',
         titulo:"Jugadores Profesionales",
     desc: "Todo sobre los ultimos tops y rendimiento de tus jugadores Profesionales favoritos"},
-    {img: 'Practica-Pagweb\Imagenes\fncs2025.jpg',
+    {img: '/Imagenes/fncs2025.jpg',
         titulo: "Todo sobre torneos oficiales",
         desc: "Informacion sobre fechas, clasificaciones y finales de los torneos mas emocionantes"
     },
-    {img: 'Practica-Pagweb\Imagenes\fncs2024.jpg',
+    {img: '/Imagenes/fncs2024.jpg',
         titulo: "Todo sobre torneos oficiales",
         desc: "Informacion sobre fechas, clasificaciones y finales de los torneos mas emocionantes"
     },
-    {img: 'Practica-Pagweb\Imagenes\actualizaciones1.jpg',
+    {img: '/Imagenes/actualizaciones1.jpg',
         titulo: "Actualizaciones y novedades",
         desc: "Informaremos sobre posibles y nuevas actualizaciones o eventos del juego"
     },
-    {img: 'Practica-Pagweb\Imagenes\actualizaciones2.jpg',
+    {img: '/Imagenes/actualizaciones2.jpg',
         titulo: "Actualizaciones y novedades",
         desc: "Informaremos sobre posibles y nuevas actualizaciones o eventos del juego"
     }]

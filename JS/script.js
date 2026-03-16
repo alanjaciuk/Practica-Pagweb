@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
     img: document.getElementById("img-carrusel"),
     titulo: document.getElementById("titulo-carrusel"),
     desc: document.getElementById("desc-carrusel"),
-    btnSig: document.querySelector(".btn-carrusel sig"),
-    btnAnt: document.querySelector(".btn-carrusel ant"),
+    btnSig: document.querySelector(".btn-carrusel.sig"),
+    btnAnt: document.querySelector(".btn-carrusel.ant"),
   };
 
   for (let key in elementos) {

@@ -30,11 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
       titulo: "Actualizaciones y novedades",
       desc: "Informaremos sobre posibles y nuevas actualizaciones o eventos del juego",
     },
-  ];
+  ]; //Imagenes
 
   if (imagenes.length === 0) return;
 
-  const elementos = {
+  const elementos = { //Elemtos creados
     img: document.getElementById("img-carrusel"),
     titulo: document.getElementById("titulo-carrusel"),
     desc: document.getElementById("desc-carrusel"),

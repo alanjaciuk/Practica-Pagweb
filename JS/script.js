@@ -6,27 +6,27 @@ document.addEventListener("DOMContentLoaded", () => {
       desc: "Todo sobre los ultimos tops y rendimiento de tus jugadores Profesionales favoritos",
     },
     {
-      img: "Imagenes/cooper.jpg",
+      img: "/Imagenes/cooper.jpg",
       titulo: "Jugadores Profesionales",
       desc: "Todo sobre los ultimos tops y rendimiento de tus jugadores Profesionales favoritos",
     },
     {
-      img: "Imagenes/fncs2025.jpg",
+      img: "/Imagenes/fncs2025.jpg",
       titulo: "Todo sobre torneos oficiales",
       desc: "Informacion sobre fechas, clasificaciones y finales de los torneos mas emocionantes",
     },
     {
-      img: "Imagenes/fncs2024.jpg",
+      img: "/Imagenes/fncs2024.jpg",
       titulo: "Todo sobre torneos oficiales",
       desc: "Informacion sobre fechas, clasificaciones y finales de los torneos mas emocionantes",
     },
     {
-      img: "Imagenes/actualizaciones1.jpg",
+      img: "/Imagenes/actualizaciones1.jpg",
       titulo: "Actualizaciones y novedades",
       desc: "Informaremos sobre posibles y nuevas actualizaciones o eventos del juego",
     },
     {
-      img: "Imagenes/actualizaciones2.jpg",
+      img: "/Imagenes/actualizaciones2.jpg",
       titulo: "Actualizaciones y novedades",
       desc: "Informaremos sobre posibles y nuevas actualizaciones o eventos del juego",
     },
